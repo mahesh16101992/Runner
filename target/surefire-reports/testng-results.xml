@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Gmail sign-in page opened]]>
+    </line>
+    <line>
+      <![CDATA[Gmail sign-in page opened]]>
+    </line>
+    <line>
+      <![CDATA[Email id provided]]>
+    </line>
+    <line>
+      <![CDATA[Next button clicked]]>
+    </line>
+    <line>
+      <![CDATA[password provided]]>
+    </line>
+    <line>
+      <![CDATA[Next button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Got the pagetitle]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40161" started-at="2020-02-24T07:31:43Z" finished-at="2020-02-24T07:32:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40161" started-at="2020-02-24T07:31:43Z" finished-at="2020-02-24T07:32:23Z">
+      <class name="Test.Signin_Test">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="beforetest" is-config="true" duration-ms="7945" started-at="2020-02-24T07:31:43Z" finished-at="2020-02-24T07:31:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Gmail sign-in page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="Gmailopen()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="Gmailopen" duration-ms="5" started-at="2020-02-24T07:31:51Z" finished-at="2020-02-24T07:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gmailopen -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="aftertest" is-config="true" duration-ms="4460" started-at="2020-02-24T07:31:51Z" finished-at="2020-02-24T07:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="beforetest" is-config="true" duration-ms="8616" started-at="2020-02-24T07:31:55Z" finished-at="2020-02-24T07:32:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Gmail sign-in page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="signin" duration-ms="13741" started-at="2020-02-24T07:32:04Z" finished-at="2020-02-24T07:32:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email id provided]]>
+            </line>
+            <line>
+              <![CDATA[Next button clicked]]>
+            </line>
+            <line>
+              <![CDATA[password provided]]>
+            </line>
+            <line>
+              <![CDATA[Next button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Got the pagetitle]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Test.Signin_Test@5a61f5df]" name="aftertest" is-config="true" duration-ms="5372" started-at="2020-02-24T07:32:17Z" finished-at="2020-02-24T07:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Test.Signin_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
